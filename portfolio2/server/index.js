@@ -35,7 +35,7 @@ App.get("/movie/:title", async (req, res) => {
     res.json(result);
 });
 
-//Databse Budy - updateOne -updating movie
+//Databse Buddy - updateOne -updating movie
 App.patch("/movie/:title", async (req, res) => {
     const title = req.params.title;
 
